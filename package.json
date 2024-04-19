@@ -1,13 +1,20 @@
 {
 	"scripts": {
-		"api-test": "ts-node-esm index.ts"
+		"brx": "ts-node-esm ./examples/index.ts",
+		"example-1": "ts-node-esm ./examples/example-1.ts",
+		"example-2": "ts-node-esm ./examples/example-2.ts",
+		"example-3": "ts-node-esm ./examples/example-3.ts",
+		"example-4": "ts-node-esm ./examples/example-4.ts",
+		"example-5": "ts-node-esm ./examples/example-5.ts"
 	},
 	"dependencies": {
-		"brx-node": "0.6.5-development",
-		"dotenv": "^16.4.5"
+		"brx-node": "0.6.6-development",
+		"dotenv": "^16.4.5",
+		"ts-node": "^10.9.2"
 	},
 	"devDependencies": {
-		"@types/node": "^20.11.30"
+		"@types/node": "^20.11.30",
+		"typescript": "^5.4.5"
 	},
 	"type": "module"
 }
