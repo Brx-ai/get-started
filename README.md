@@ -150,64 +150,6 @@ npm run brx
 ```bash 
 pnpm run brx
 ``` 
-### Schema
-```javascript
-{
-  "description": "This BRK adds input colors",
-  "brxName": "Add Colors",
-  "brxId": "590ac222-f291-4da6-9123-a4822957d155",
-  "dependantBrxIds": {
-    "invert_color_1": "01afd050-fe19-406b-9b83-891c48ec5198"
-  },
-  "processType": 0,
-  "schemas": {
-    "mainBrxId": "590ac222-f291-4da6-9123-a4822957d155",
-    "schemas": {
-      "_isMap": true,
-      "data": [
-        [
-          "main_brx_entry_schema",
-          {
-            "schemaFields": {
-              "_isMap": true,
-              "data": [
-                [
-                  "colorAdd1",
-                  {
-                    "fieldValueDataType": "string",
-                    "description": "test123"
-                  }
-                ]
-              ]
-            },
-            "brxName": "Invert Color",
-            "brxId": "01afd050-fe19-406b-9b83-891c48ec5198"
-          }
-        ],
-        [
-          "invert_color_1",
-          {
-            "schemaFields": {
-              "_isMap": true,
-              "data": [
-                [
-                  "userInvertColor",
-                  {
-                    "fieldValueDataType": "string",
-                    "description": "lol123"
-                  }
-                ]
-              ]
-            },
-            "brxName": "Invert Color",
-            "brxId": "01afd050-fe19-406b-9b83-891c48ec5198"
-          }
-        ]
-      ]
-    }
-  }
-}
-```
 
 ### Expected Output
 ```javascript
